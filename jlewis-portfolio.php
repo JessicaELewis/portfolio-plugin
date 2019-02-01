@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Jlewis Portfolio
+Plugin Name: Jlewis Portfolio Plugin
 Plugin URI: http://jessicalewis.org/
 Description: Declares a plugin that will create a custom post type displaying portfolio projects
 Version: 1.0
