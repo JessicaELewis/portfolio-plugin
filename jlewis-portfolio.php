@@ -494,7 +494,7 @@ add_action( 'create_tools', 'save_taxonomy_tools_custom_meta' );
 
 
 
-add_image_size( 'jlproj_desktop', 500, 286, array( 'center', 'top' ) );
+add_image_size( 'jlproj_desktop', 500, 300, array( 'center', 'top' ) );
 add_image_size( 'jlproj_mobile', 180, 320, array( 'center', 'top' ) );
 
 
@@ -529,8 +529,8 @@ add_action('wp_enqueue_scripts', 'add_modal_stylesheet');
 
 function jlport_display_projects( $atts ) {
     $atts = shortcode_atts( array(
-        'tag' => 'pbhs',
-        'order' => 'ASC',
+        'tag' => '',
+        'order' => 'DESC',
         'modal' => true,
         'mobile' => false,
     ), $atts, 'projects_list' );
